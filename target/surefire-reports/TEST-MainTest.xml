@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="MainTest" time="0.067" tests="3" errors="0" skipped="1" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="MainTest" time="0.069" tests="3" errors="0" skipped="1" failures="0">
   <properties>
     <property name="java.specification.version" value="16"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="GB"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-16.0.2\bin"/>
-    <property name="sun.java.command" value="C:\Users\kalle\AppData\Local\Temp\surefire3778903356114971669\surefirebooter8102736821247348114.jar C:\Users\kalle\AppData\Local\Temp\surefire3778903356114971669 2022-03-28T12-50-16_904-jvmRun1 surefire406663657933873488tmp surefire_012182433320535108942tmp"/>
+    <property name="sun.java.command" value="C:\Users\kalle\AppData\Local\Temp\surefire7686615611186785434\surefirebooter7189813656758714753.jar C:\Users\kalle\AppData\Local\Temp\surefire7686615611186785434 2022-03-28T12-58-08_443-jvmRun1 surefire7845472002345765635tmp surefire_03046041888724719741tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\kalle\ws\TDD-pair-programming\target\test-classes;C:\Users\kalle\ws\TDD-pair-programming\target\classes;C:\Users\kalle\.m2\repository\org\junit\platform\junit-platform-surefire-provider\1.3.2\junit-platform-surefire-provider-1.3.2.jar;C:\Users\kalle\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\kalle\.m2\repository\org\junit\platform\junit-platform-launcher\1.8.2\junit-platform-launcher-1.8.2.jar;C:\Users\kalle\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;C:\Users\kalle\.m2\repository\org\apache\maven\surefire\surefire-api\2.22.0\surefire-api-2.22.0.jar;C:\Users\kalle\.m2\repository\org\apache\maven\surefire\surefire-logger-api\2.22.0\surefire-logger-api-2.22.0.jar;C:\Users\kalle\.m2\repository\org\apache\maven\surefire\common-java5\2.22.0\common-java5-2.22.0.jar;C:\Users\kalle\.m2\repository\org\junit\jupiter\junit-jupiter\5.8.2\junit-jupiter-5.8.2.jar;C:\Users\kalle\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\kalle\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\kalle\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\kalle\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.2\junit-jupiter-params-5.8.2.jar;C:\Users\kalle\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\kalle\AppData\Local\Temp\surefire3778903356114971669\surefirebooter8102736821247348114.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\kalle\AppData\Local\Temp\surefire7686615611186785434\surefirebooter7189813656758714753.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="16.0.2+7-67"/>
@@ -59,6 +59,6 @@
   <testcase name="failThisTest" classname="MainTest" time="0">
     <skipped message="public void MainTest.failThisTest() is @Disabled"/>
   </testcase>
-  <testcase name="checkIfCelsius" classname="MainTest" time="0.04"/>
-  <testcase name="checkIfCorrectlyConverted" classname="MainTest" time="0.001"/>
+  <testcase name="checkIfCelsius" classname="MainTest" time="0.038"/>
+  <testcase name="checkIfCorrectlyConverted" classname="MainTest" time="0.002"/>
 </testsuite>
