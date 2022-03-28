@@ -20,5 +20,7 @@ public class mainTest {
 
     @Test
     @DisplayName("Fail on purpose")
-    public void failThisTest(){ assertTrue(false);}
+    public void failThisTest(){
+        Assertions.assertTrue(false);
+    }
 }

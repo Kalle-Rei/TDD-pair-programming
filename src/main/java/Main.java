@@ -1,5 +1,7 @@
 public class Main {
     public static void main(String[] args) {
+        double temp = convertToCelsius(104);
+        System.out.println(temp);
 
     }
 
