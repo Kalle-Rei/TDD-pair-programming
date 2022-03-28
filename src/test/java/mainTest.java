@@ -2,7 +2,7 @@ import org.junit.jupiter.api.*;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class mainTest {
+public class MainTest {
 
     // To convert temperatures in degrees Fahrenheit to Celsius, subtract 32 and multiply by 5/9
     @Test
