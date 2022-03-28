@@ -1,7 +1,6 @@
 import org.junit.jupiter.api.*;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class mainTest {
 
@@ -20,7 +19,8 @@ public class mainTest {
 
     @Test
     @DisplayName("Fail on purpose")
+    @Disabled
     public void failThisTest(){
-        Assertions.assertTrue(false);
+        fail();
     }
 }
