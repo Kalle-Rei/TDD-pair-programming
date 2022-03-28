@@ -12,7 +12,7 @@ public class mainTest {
     }
 
     @Test
-    @DisplayName("Check if celsiusOrFahrenheit2 returns the correct String")
+    @DisplayName("Check if celsiusOrFahrenheit returns the correct String")
     public void checkIfCelsius(){
         assertEquals("Celsius", Main.celsiusOrFahrenheit(30));
     }
