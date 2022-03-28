@@ -1,6 +1,7 @@
 import org.junit.jupiter.api.*;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class mainTest {
 
@@ -16,4 +17,8 @@ public class mainTest {
     public void checkIfCelsius(){
         assertEquals("Celsius", Main.celsiusOrFahrenheit(30));
     }
+
+    @Test
+    @DisplayName("Fail on purpose")
+    public void failThisTest(){ assertTrue(false);}
 }
