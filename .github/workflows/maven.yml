@@ -13,8 +13,8 @@ jobs:
       - name: Cache Maven packages
         uses: actions/cache@v2
         with:
-          path: ~/.m2
-          key: ${{ runner.os }}-m2-${{ hashFiles('**/pom.xml') }}
-          restore-keys: ${{ runner.os }}-m2
+          path: ~/.m3
+          key: ${{ runner.os }}-m3-${{ hashFiles('**/pom.xml') }}
+          restore-keys: ${{ runner.os }}-m3
       - name: Run my tests using Maven
         run: mvn -B test --file pom.xml
